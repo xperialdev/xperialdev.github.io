@@ -69,7 +69,7 @@
             <tr><td>Weekly letters</td><td>Letters written for you from your week's entries, and when you read them</td><td>Yes</td></tr>
             <tr><td>Feedback</td><td>Messages you send us from the app, and their category</td><td>Yes</td></tr>
             <tr><td>Subscription status</td><td>Whether you have premium and when it expires; we never see your card details</td><td>Yes</td></tr>
-            <tr><td>Usage analytics</td><td>Screens viewed and actions taken (for example "breathing session completed"), linked to your account ID, plus device model, OS version, app version and approximate location derived from your IP address</td><td>Sent to our analytics provider</td></tr>
+            <tr><td>Usage analytics</td><td>Screens viewed and actions taken (for example "breathing session completed"), linked to a random install ID the app creates on first launch and, once you have an account, to your account ID, plus device model, OS version, app version and approximate location derived from your IP address</td><td>Sent to our analytics provider</td></tr>
             <tr><td>Settings</td><td>Reminder times, sound and haptics preferences, appearance</td><td>No, device only</td></tr>
         </tbody>
     </table>
@@ -99,7 +99,7 @@
         <tbody>
             <tr><td><a href="https://supabase.com/privacy">Supabase</a></td><td>Database, sign-in and server functions</td><td>Everything marked "Synced" above</td></tr>
             <tr><td><a href="https://www.anthropic.com/legal/privacy">Anthropic</a></td><td>Writes your weekly letter, if you turn letters on</td><td>That week's logged emotions, times and notes</td></tr>
-            <tr><td><a href="https://posthog.com/privacy">PostHog</a></td><td>Usage analytics</td><td>Usage events, account ID, device and app details, IP address</td></tr>
+            <tr><td><a href="https://posthog.com/privacy">PostHog</a></td><td>Usage analytics</td><td>Usage events, install ID, account ID, device and app details, IP address</td></tr>
             <tr><td><a href="https://www.revenuecat.com/privacy">RevenueCat</a></td><td>Manages subscriptions</td><td>Account ID and purchase records from the app store</td></tr>
             <tr><td>Google</td><td>Sign in with Google</td><td>Handled by Google under its own privacy policy</td></tr>
             <tr><td>Apple App Store, Google Play</td><td>Payments and app delivery</td><td>Handled under their own privacy policies; we never see your payment details</td></tr>
@@ -117,10 +117,10 @@
         <li><strong>Journal notes:</strong> the app also encrypts the notes you write, with a key kept in your phone's secure keystore. Once synced, they are encrypted at rest on our servers but are not end-to-end encrypted, so our systems can read them, for example to write your weekly letter.</li>
         <li><strong>International transfers:</strong> our providers may process data outside your country, including in Japan, where our database is hosted, and in the United States, where our analytics provider stores its data. Where required, transfers rely on safeguards such as the EU Standard Contractual Clauses.</li>
     </ul>
-    <p><strong>How long we keep it:</strong> for as long as your account exists. When you delete your account, your profile, journal entries, weekly letters, progress, subscription record and feedback are deleted from our servers straight away, and the app clears its local copy. We also ask our analytics provider to delete your analytics profile and events, which it completes within about a week. Otherwise, analytics data is kept for up to 1 year and is then deleted. We do not keep backups of our database, so data deleted from our servers cannot be restored.</p>
+    <p><strong>How long we keep it:</strong> for as long as your account exists. A guest account with no activity for 90 days, and no active subscription, is deleted automatically along with its data and analytics profile. When you delete your account, your profile, journal entries, weekly letters, progress, subscription record and feedback are deleted from our servers straight away, and the app clears its local copy. We also ask our analytics provider to delete your analytics profile and events, which it completes within about a week. Otherwise, analytics data is kept for up to 1 year and is then deleted. We do not keep backups of our database, so data deleted from our servers cannot be restored.</p>
 
     <h2>Your choices and rights</h2>
-    <p>You can delete your account and all its data at any time from inside the app.</p>
+    <p>You can delete your account and all its data at any time, in the app or by email (see <a href="#delete-your-account">Delete your account</a> below).</p>
     <ul>
         <li><strong>Delete your account:</strong> Settings &gt; Account &gt; Delete account. This works for guest accounts too.</li>
         <li><strong>Notifications:</strong> turn reminders on or off in the app or in your phone's settings.</li>
@@ -129,6 +129,15 @@
         <li><strong>Access, correction and export:</strong> edit your profile in the app, or email <a href="mailto:isaac.xperial@gmail.com">isaac.xperial@gmail.com</a> for a copy of your data or any other request. We reply within 30 days.</li>
     </ul>
     <p>Depending on where you live (for example the EU, UK or California), you may have rights to access, correct, delete, restrict or port your data, to object to processing, and to withdraw consent at any time. You can also complain to your local data protection authority. We do not sell or share personal information for cross-context behavioural advertising.</p>
+
+    <h2 id="delete-your-account">Delete your account</h2>
+    <p>You can delete your Eggxiety account in the app, or by email if you no longer have the app.</p>
+    <ol>
+        <li><strong>In the app:</strong> Settings &gt; Account &gt; Delete account. Your data is deleted from our servers straight away and the app clears its local copy. This works for guest accounts too.</li>
+        <li><strong>Without the app:</strong> email <a href="mailto:isaac.xperial@gmail.com">isaac.xperial@gmail.com</a> from the email address you signed in with, with the subject "Delete my account". We confirm the request and delete the account within 30 days.</li>
+    </ol>
+    <p>Either way, we delete your account, profile, journal entries, weekly letters, progress, subscription record and feedback, and ask our analytics provider to delete your analytics profile and events. We keep nothing afterwards, as we do not keep database backups.</p>
+    <p>A guest account has no email address, so we cannot match an email request to it. Delete a guest account in the app before you uninstall. Otherwise it is deleted automatically after 90 days without activity. Deleting your account does not cancel a subscription; cancel it through the App Store or Google Play.</p>
 
     <h2>Children</h2>
     <p>Eggxiety is not meant for children under 13, and the app does not accept a date of birth under 13. If you believe a child under 13 has given us information, email <a href="mailto:isaac.xperial@gmail.com">isaac.xperial@gmail.com</a> and we will delete it. In the EU and UK, users under 16 should use the app with a parent or guardian's consent.</p>
